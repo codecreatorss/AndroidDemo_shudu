@@ -1,0 +1,42 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".MainActivity"
+    android:background="@drawable/bj" >
+
+    <Button
+        android:id="@+id/btneasy"
+        android:layout_width="60dp"
+        android:layout_height="30dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="77dp"
+        android:background="@drawable/button"
+        android:text="简单" />
+
+    <Button
+        android:id="@+id/btndifficult"
+        android:layout_width="60dp"
+        android:layout_height="30dp"
+        android:layout_alignLeft="@+id/btneasy"
+        android:layout_below="@+id/btneasy"
+        android:layout_marginTop="90dp"
+        android:background="@drawable/button"
+        android:text="困难" />
+
+    <Button
+        android:id="@+id/btnmedium"
+        android:layout_width="60dp"
+        android:layout_height="30dp"
+        android:layout_alignLeft="@+id/btneasy"
+        android:layout_below="@+id/btneasy"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/button"
+        android:text="中等" />
+
+</RelativeLayout>
